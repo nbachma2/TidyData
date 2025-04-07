@@ -1,4 +1,5 @@
 run_analysis<- function(){
+library(dplyr)
 #read .txt files
 train_val<-read.table("./data/UCI HAR Dataset/train/X_train.txt")
 train_label<-read.table("./data/UCI HAR Dataset/train/Y_train.txt")
